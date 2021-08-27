@@ -1,0 +1,28 @@
+{
+  "name": "tecnoserver",
+  "version": "1.0.0",
+  "description": "aero api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarJou/ecommerce-back.git"
+  },
+  "author": "Carla Joumier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarJou/ecommerce-back/issues"
+  },
+  "homepage": "https://github.com/CarJou/ecommerce-back#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2"
+  }
+}
